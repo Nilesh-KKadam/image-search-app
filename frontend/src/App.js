@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import SearchBar from "./components/SearchBar";
 import ImageGrid from "./components/ImageGrid";
 
-function App()   
+function App()  {
   const [images, setImages] = useState([]);
 
   const handleSearch = (query) => {
